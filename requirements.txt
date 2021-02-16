@@ -1,0 +1,11 @@
+flask
+flask-bootstrap
+flask-wtf
+blinker
+flask-marshmallow
+marshmallow-sqlalchemy
+pymysql
+flask-sqlalchemy
+firebase-admin
+flask-login==0.4.1
+werkzeug

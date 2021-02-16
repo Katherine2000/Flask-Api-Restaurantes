@@ -1,0 +1,9 @@
+from flask_wtf import FlaskForm
+from wtforms.fields import StringField, PasswordField, SubmitField
+from wtforms.validators import DataRequired
+
+class LoginForm(FlaskForm):
+	usuario = StringField('Usuario', validators=[DataRequired()])
+	password = PasswordField('Contraseña', validators=[DataRequired()])
+	iniciarSesion = SubmitField('Iniciar sesión', validators=[DataRequired()])
+	
